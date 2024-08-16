@@ -213,7 +213,7 @@ function steamlogin_activate()
 			</tr>
 			<tr>
 				<td class="trow1" width="30%">
-					<strong>SteamRep</strong>
+					<strong>SteamID.uk</strong>
 				</td>
 				<td class="trow1">{$steamrep_link}</td>
 			</tr>
@@ -555,7 +555,7 @@ function steamify_user_profile()
         $steam_status = '<a href="steam://openurl/http://steamcommunity.com/profiles/'.$steamid_64.'">Click here to open this profile in Steam.</a>';
 		
         // Create a link for SteamRep.
-        $steamrep_link = '<a href="http://www.steamrep.com/profiles/'.$steamid_64.'" target="_blank">www.steamrep.com/profiles/'.$steamid_64.'</a>';
+        $steamrep_link = '<a href="https://steamid.uk/profile/'.$steamid_64.'" target="_blank">steamid.uk/profile/'.$steamid_64.'</a>';
 
         eval("\$steamlogin_profile_block = \"".$templates->get("steamlogin_profile_block")."\";");
 
